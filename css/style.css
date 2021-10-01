@@ -1,0 +1,78 @@
+/* <--- COMMONS ---> */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* COLOR PALETTE */
+  /* header D881E0 */
+  /* jumbotron E0D686 */
+  /* container B1CEE4 */
+  /* main 3686F7 */
+  /* footer 7D27F5 */
+
+body{
+  padding: 20px 100px;
+}
+
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* <--- HEADER --->   */
+.header-top{
+  height: 110px;
+  background-color: #D881E0;
+}
+
+.header-bottom{
+  height: 420px;
+  background-color: #E0D686;
+  margin: 20px 0;
+}
+
+/* <--- MAIN --->   */
+main{
+  background-color: #3686F7;
+}
+
+.left{
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.bottom1-main, .bottom3-main{
+    margin: 2.5% 0;
+    width: 20%;
+}
+
+.bottom2-main{
+  margin: 2.5% 2%;
+  width: 56%;
+}
+
+/* <--- FOOTER --->   */
+
+footer{
+    height: 50px;
+    background-color: #7D27F5;
+    margin-top: 10px;
+
+}
+
+/* <--- DEBUG ---> */
+
+.debug .top-main {
+    height: 70px;
+    background-color: #B1CEE4;
+}
+
+.debug .bottom1-main, .debug .bottom2-main, .debug .bottom3-main {
+  height: 450px;
+  background-color: #B1CEE4;
+  }
