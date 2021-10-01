@@ -49,6 +49,16 @@ ul li {
   background-position: center;
   height: 320px;
   border-radius: 10px;
+  margin-bottom: 20px;
+}
+.text-jumbotron {
+  color: white;
+  width: 55%;
+  padding: 205px 0 0 30px;
+}
+
+.text-jumbotron div{
+  font-size: 10px;
 }
 
 /* <--- MAIN --->   */
