@@ -12,7 +12,7 @@
   /* footer 7D27F5 */
 
 body{
-  padding: 20px 100px;
+  padding: 0px 100px;
 }
 
 .clearfix::after{
@@ -22,10 +22,13 @@ body{
 }
 
 /* <--- HEADER --->   */
-.header-top{
-  height: 110px;
-  background-color: #D881E0;
+
+#logo{
+  border-right: 0.5px solid lightgray;
+  height: 50px;
+  padding-right: 10px;
 }
+
 
 .header-bottom{
   height: 420px;
@@ -66,6 +69,11 @@ footer{
 }
 
 /* <--- DEBUG ---> */
+
+/* .debug .header-top{
+  height: 110px;
+  background-color: #D881E0;
+} */
 
 .debug .top-main {
     height: 70px;
